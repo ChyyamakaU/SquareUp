@@ -8,6 +8,12 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-amber-700: oklch(55.5% 0.163 48.998);
+    --color-gray-800: oklch(27.8% 0.033 256.848);
+    --color-black: #000;
+    --color-white: #fff;
+    --spacing: 0.25rem;
+    --radius-lg: 0.5rem;
+    --radius-2xl: 1rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -161,6 +167,18 @@
   }
 }
 @layer utilities {
+  .mx-12 {
+    margin-inline: calc(var(--spacing) * 12);
+  }
+  .mx-16 {
+    margin-inline: calc(var(--spacing) * 16);
+  }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
+  }
+  .flex {
+    display: flex;
+  }
   .table {
     display: table;
   }
@@ -170,12 +188,82 @@
   .resize {
     resize: both;
   }
+  .items-center {
+    align-items: center;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .gap-5 {
+    gap: calc(var(--spacing) * 5);
+  }
+  .gap-7 {
+    gap: calc(var(--spacing) * 7);
+  }
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  .rounded-2xl {
+    border-radius: var(--radius-2xl);
+  }
+  .rounded-lg {
+    border-radius: var(--radius-lg);
+  }
+  .rounded-l {
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .bg-\[\#9eff00\] {
+    background-color: #9eff00;
+  }
+  .bg-\[\#262626\] {
+    background-color: #262626;
+  }
+  .bg-\[9eff00\] {
+    background-color: 9eff00;
+  }
   .bg-amber-700 {
     background-color: var(--color-amber-700);
+  }
+  .bg-black {
+    background-color: var(--color-black);
+  }
+  .bg-gray-800 {
+    background-color: var(--color-gray-800);
+  }
+  .object-contain {
+    object-fit: contain;
+  }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
+  .p-2\.5 {
+    padding: calc(var(--spacing) * 2.5);
+  }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
+  }
+  .p-5 {
+    padding: calc(var(--spacing) * 5);
+  }
+  .p-55 {
+    padding: calc(var(--spacing) * 55);
+  }
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
+  }
+  .px-3\.5 {
+    padding-inline: calc(var(--spacing) * 3.5);
+  }
+  .py-2 {
+    padding-block: calc(var(--spacing) * 2);
+  }
+  .text-white {
+    color: var(--color-white);
   }
   .underline {
     text-decoration-line: underline;
