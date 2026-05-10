@@ -236,11 +236,38 @@
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
   }
+  .bottom-1 {
+    bottom: calc(var(--spacing) * 1);
+  }
+  .bottom-4 {
+    bottom: calc(var(--spacing) * 4);
+  }
+  .bottom-5 {
+    bottom: calc(var(--spacing) * 5);
+  }
+  .bottom-6 {
+    bottom: calc(var(--spacing) * 6);
+  }
   .bottom-7 {
     bottom: calc(var(--spacing) * 7);
   }
+  .bottom-10 {
+    bottom: calc(var(--spacing) * 10);
+  }
+  .bottom-14 {
+    bottom: calc(var(--spacing) * 14);
+  }
+  .bottom-16 {
+    bottom: calc(var(--spacing) * 16);
+  }
   .bottom-20 {
     bottom: calc(var(--spacing) * 20);
+  }
+  .bottom-24 {
+    bottom: calc(var(--spacing) * 24);
+  }
+  .bottom-28 {
+    bottom: calc(var(--spacing) * 28);
   }
   .bottom-32 {
     bottom: calc(var(--spacing) * 32);
@@ -260,6 +287,42 @@
   .bottom-80 {
     bottom: calc(var(--spacing) * 80);
   }
+  .bottom-\[7px\] {
+    bottom: 7px;
+  }
+  .bottom-\[8px\] {
+    bottom: 8px;
+  }
+  .bottom-\[9px\] {
+    bottom: 9px;
+  }
+  .bottom-\[75px\] {
+    bottom: 75px;
+  }
+  .bottom-\[80px\] {
+    bottom: 80px;
+  }
+  .bottom-\[82px\] {
+    bottom: 82px;
+  }
+  .bottom-\[85px\] {
+    bottom: 85px;
+  }
+  .bottom-\[90px\] {
+    bottom: 90px;
+  }
+  .bottom-\[95px\] {
+    bottom: 95px;
+  }
+  .bottom-\[100\] {
+    bottom: 100;
+  }
+  .bottom-\[100px\] {
+    bottom: 100px;
+  }
+  .bottom-\[px\] {
+    bottom: px;
+  }
   .left-6 {
     left: calc(var(--spacing) * 6);
   }
@@ -274,6 +337,15 @@
   }
   .mx-5 {
     margin-inline: calc(var(--spacing) * 5);
+  }
+  .mx-6 {
+    margin-inline: calc(var(--spacing) * 6);
+  }
+  .mx-8 {
+    margin-inline: calc(var(--spacing) * 8);
+  }
+  .mx-10 {
+    margin-inline: calc(var(--spacing) * 10);
   }
   .mx-12 {
     margin-inline: calc(var(--spacing) * 12);
@@ -302,8 +374,20 @@
   .mx-72 {
     margin-inline: calc(var(--spacing) * 72);
   }
+  .mx-80 {
+    margin-inline: calc(var(--spacing) * 80);
+  }
+  .mx-84 {
+    margin-inline: calc(var(--spacing) * 84);
+  }
+  .mx-92 {
+    margin-inline: calc(var(--spacing) * 92);
+  }
   .mx-3212 {
     margin-inline: calc(var(--spacing) * 3212);
+  }
+  .mx-auto {
+    margin-inline: auto;
   }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
@@ -347,6 +431,9 @@
   .h-3\/5 {
     height: calc(3 / 5 * 100%);
   }
+  .h-\[200px\] {
+    height: 200px;
+  }
   .w-3 {
     width: calc(var(--spacing) * 3);
   }
@@ -359,6 +446,18 @@
   .w-5\/6 {
     width: calc(5 / 6 * 100%);
   }
+  .w-10 {
+    width: calc(var(--spacing) * 10);
+  }
+  .w-16 {
+    width: calc(var(--spacing) * 16);
+  }
+  .w-20 {
+    width: calc(var(--spacing) * 20);
+  }
+  .w-24 {
+    width: calc(var(--spacing) * 24);
+  }
   .w-32 {
     width: calc(var(--spacing) * 32);
   }
@@ -367,6 +466,9 @@
   }
   .w-56 {
     width: calc(var(--spacing) * 56);
+  }
+  .w-fit {
+    width: fit-content;
   }
   .max-w-3 {
     max-width: calc(var(--spacing) * 3);
@@ -388,6 +490,15 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
+  }
+  .gap-3 {
+    gap: calc(var(--spacing) * 3);
+  }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
   }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
@@ -441,6 +552,9 @@
   .border-\[\#333333\] {
     border-color: #333333;
   }
+  .border-\[\#3333333\] {
+    border-color: #3333333;
+  }
   .border-transparent {
     border-color: transparent;
   }
@@ -456,6 +570,9 @@
   .bg-\[\#9eff00\] {
     background-color: #9eff00;
   }
+  .bg-\[\#26224\] {
+    background-color: #26224;
+  }
   .bg-\[\#26262\] {
     background-color: #26262;
   }
@@ -467,6 +584,9 @@
   }
   .bg-\[\#262426\] {
     background-color: #262426;
+  }
+  .bg-\[\#262624\] {
+    background-color: #262624;
   }
   .bg-\[\#262626\] {
     background-color: #262626;
@@ -560,6 +680,18 @@
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
+  }
+  .py-6 {
+    padding-block: calc(var(--spacing) * 6);
+  }
+  .pt-5 {
+    padding-top: calc(var(--spacing) * 5);
+  }
+  .pb-6 {
+    padding-bottom: calc(var(--spacing) * 6);
+  }
+  .pb-10 {
+    padding-bottom: calc(var(--spacing) * 10);
   }
   .pb-12 {
     padding-bottom: calc(var(--spacing) * 12);
