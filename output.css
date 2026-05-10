@@ -536,6 +536,12 @@
   .h-64 {
     height: calc(var(--spacing) * 64);
   }
+  .h-80 {
+    height: calc(var(--spacing) * 80);
+  }
+  .h-92 {
+    height: calc(var(--spacing) * 92);
+  }
   .h-\[200px\] {
     height: 200px;
   }
@@ -1066,6 +1072,9 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .text-\[\#9e\] {
+    color: #9e;
   }
   .text-\[\#9eff00\] {
     color: #9eff00;
