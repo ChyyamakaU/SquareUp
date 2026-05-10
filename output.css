@@ -371,6 +371,9 @@
   .mx-16 {
     margin-inline: calc(var(--spacing) * 16);
   }
+  .mx-20 {
+    margin-inline: calc(var(--spacing) * 20);
+  }
   .mx-32 {
     margin-inline: calc(var(--spacing) * 32);
   }
@@ -410,8 +413,14 @@
   .my-4 {
     margin-block: calc(var(--spacing) * 4);
   }
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
+  }
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
   }
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
@@ -443,11 +452,32 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
+  .mr-14 {
+    margin-right: calc(var(--spacing) * 14);
+  }
+  .mr-16 {
+    margin-right: calc(var(--spacing) * 16);
+  }
+  .mr-20 {
+    margin-right: calc(var(--spacing) * 20);
+  }
+  .mr-24 {
+    margin-right: calc(var(--spacing) * 24);
+  }
+  .mr-\[90px\] {
+    margin-right: 90px;
+  }
+  .mb-10 {
+    margin-bottom: calc(var(--spacing) * 10);
+  }
   .mb-12 {
     margin-bottom: calc(var(--spacing) * 12);
   }
   .mb-16 {
     margin-bottom: calc(var(--spacing) * 16);
+  }
+  .mb-20 {
+    margin-bottom: calc(var(--spacing) * 20);
   }
   .ml-6 {
     margin-left: calc(var(--spacing) * 6);
@@ -587,6 +617,9 @@
   .gap-12 {
     gap: calc(var(--spacing) * 12);
   }
+  .gap-20 {
+    gap: calc(var(--spacing) * 20);
+  }
   .overflow-hidden {
     overflow: hidden;
   }
@@ -625,12 +658,19 @@
     border-right-style: var(--tw-border-style);
     border-right-width: 1px;
   }
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
   .border-l {
     border-left-style: var(--tw-border-style);
     border-left-width: 1px;
   }
   .border-\[\#33333\] {
     border-color: #33333;
+  }
+  .border-\[\#242424\] {
+    border-color: #242424;
   }
   .border-\[\#333333\] {
     border-color: #333333;
@@ -781,6 +821,9 @@
   }
   .p-12 {
     padding: calc(var(--spacing) * 12);
+  }
+  .p-14 {
+    padding: calc(var(--spacing) * 14);
   }
   .p-55 {
     padding: calc(var(--spacing) * 55);
@@ -963,6 +1006,12 @@
   }
   .text-\[\#333333\] {
     color: #333333;
+  }
+  .text-\[\#\] {
+    color: #;
+  }
+  .text-\[\#d8ff99\] {
+    color: #d8ff99;
   }
   .text-\[\#e6e6e6\] {
     color: #e6e6e6;
