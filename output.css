@@ -320,6 +320,9 @@
   .bottom-64 {
     bottom: calc(var(--spacing) * 64);
   }
+  .bottom-67 {
+    bottom: calc(var(--spacing) * 67);
+  }
   .bottom-72 {
     bottom: calc(var(--spacing) * 72);
   }
