@@ -281,8 +281,14 @@
   .bottom-7 {
     bottom: calc(var(--spacing) * 7);
   }
+  .bottom-9 {
+    bottom: calc(var(--spacing) * 9);
+  }
   .bottom-10 {
     bottom: calc(var(--spacing) * 10);
+  }
+  .bottom-11 {
+    bottom: calc(var(--spacing) * 11);
   }
   .bottom-12 {
     bottom: calc(var(--spacing) * 12);
@@ -1251,6 +1257,9 @@
   }
   .pb-12 {
     padding-bottom: calc(var(--spacing) * 12);
+  }
+  .pb-15 {
+    padding-bottom: calc(var(--spacing) * 15);
   }
   .pl-2 {
     padding-left: calc(var(--spacing) * 2);
